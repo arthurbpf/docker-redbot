@@ -2,7 +2,7 @@ FROM python:3.11-slim-bookworm as core
 
 # Variables
 ENV APTLIST="git openjdk-17-jre-headless build-essential"
-ENV VENV_PATH="/data/redbot-venv"
+ENV VENV_PATH="/redbot-venv"
 ENV INSTANCE_NAME="docker"
 
 # Install packages
